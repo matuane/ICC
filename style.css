@@ -85,3 +85,82 @@ hr{
 	font-family: 'Nunito', sans-serif;
 	padding-top: 25px;
 }
+@media screen and (min-width: 650px){
+	.texto{
+		font-size: 10px;
+		width: 690px;
+		margin-left: auto;
+		margin-right: auto; 
+		line-height: 18px;
+	}
+	.quem-somos h1{
+		font-size: 65px;
+		line-height: 109px;
+	}
+	.bloco-clube{
+		width: 600px;
+		height: 600px;
+		border-radius: 16px;
+	}
+	.clube h1{
+		font-size: 60px;
+		margin-bottom: 0.2em;	
+	}
+	.clube p{
+		margin-top: 40px;
+	}
+	.paragrafo{
+		width: 500px;
+	}
+	.paragrafo p{
+		width: 450px;
+	}
+}
+@media screen and (min-width: 1000px){
+	.texto{
+		font-size: 12px;
+		width: 690px;
+		margin-left: auto;
+		margin-right: auto; 
+		line-height: 18px;
+	}
+	.quem-somos h1{
+		font-size: 73px;
+		line-height: 109px;
+	}
+	.bloco-clube{
+		position: relative;
+		width: 1000px;
+		height: 450px;
+		border-radius: 16px;
+		box-sizing: border-box;
+	}
+	.clube h1{
+		display: inline-block;
+		font-size: 60px;
+		margin-bottom: 5px;
+		width: 50%;	
+		text-align: right;
+		line-height: 85px;
+	}
+	.clube h1:first-child{
+		margin-top: 7%;
+	}
+	.clube p{
+		display: inline-block;
+		margin-top: 8px;
+		width: 50%;
+		text-align:right;
+	}
+	.paragrafo{
+		position: absolute;
+		width: 500px;
+		display: inline-block;
+		width: 50%;
+		top: 22%;
+		right: 0;
+	}
+	.paragrafo p{
+		width: 450px;
+	}
+}
