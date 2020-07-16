@@ -1,10 +1,10 @@
 .quem-somos{
 	width: 100%;
-	height: 900px;
+	height: auto;
 	left: 0px;
 	top: 500px;
 	background: linear-gradient(180deg, #02172E 4.79%, #141618 27.24%);
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	padding-top: 10px
 }
 .texto{
@@ -33,12 +33,13 @@ hr{
 	margin-top: 3px;
 }
 .bloco-clube{
-	width: 350px;
-	height: 600px;
+	width: 95%;
+	height: auto;
 	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
 	background: #FFFFFF;
 	margin: 60px auto;
+	margin-bottom: 50px;
 }
 .clube h1{
 	font-style: normal;
@@ -62,7 +63,7 @@ hr{
 	font-size: 14px;
 	line-height: 22px;
 	color: #000000;	
-	height: 22px;
+	height: auto;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -73,13 +74,14 @@ hr{
 .paragrafo{
 	margin: 0 auto;
 	width: 302px;
-	height: 251px;
+	height: auto;
+	padding-bottom: 60px;
 }
 .paragrafo p{
 	text-align: center;
 	margin: 0 auto;
 	width: 300px;
-	height: 120px;
+	height: auto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -90,7 +92,7 @@ hr{
 .nossas-soluçoes{
 	width: 100%;
 	background: #00162E;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 .texto-pequeno{
 	text-align: center;
@@ -104,7 +106,9 @@ hr{
 	letter-spacing: 0.35em;
 	color: #FFFFFF;
 	padding-bottom: 20px;
-	padding-top: 30px;
+	padding-top: 60px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
 }
 .titulo-soluçoes{
 	text-align: center;
@@ -116,94 +120,53 @@ hr{
 	font-size: 50px;
 	line-height: 45px;
 	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
 }
 .hr-soluçoes{
 	width: 100px;
 	height: 3px;
 	background: #FFFFFF;	
 }
-.treinamentos, .cursos, .consultoria, .mentorias{
-	width: 260px;
-	margin:0 auto;
-	height: 232px;
+.soluçoes-card{
+	display: grid;
+	margin-left: 10%;
+	grid-gap: 80px;
 }
-.treinamentos h2{
-	text-align: center;	
+.div-card:first-child{
+	margin-top: 13%;
+}
+.icon-soluçoes{
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+}
+.soluçoes-card h2{
+	font-size: 25px;
 	display: inline-block;
-	vertical-align: center;
 	color: #FFFFFF;
-	font-style: normal;
 	font-weight: 800;
-	font-size: 30px;
-	line-height: 45px;
-	text-align: center;
-	margin-bottom: 0;
+	line-height: 40px;
+	font-style: normal;
+	margin: 0 auto;
+	vertical-align: bottom;
+	font-family: 'Poppins', sans-serif;	
 }
-.treinamentos p{
-	width: 170px;
+.card-p{
+	display: inline-block;
 	margin: 0 auto;
 	color: #FAFAFA;
 	font-size: 18px;
-	line-height: 18px;
+	line-height: 20px;
 	text-align: left;
+	width: 85%;
+	padding-left: 45px;
+	font-family: 'Nunito', sans-serif;
+	padding-top: 10px;
 }
-.cursos h2{
-	text-align: center;	
-	display: inline-block;
-	vertical-align: center;
-	color: #FFFFFF;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 30px;
-	line-height: 45px;
-	text-align: center;
-	margin-bottom: 0;
-}
-.cursos p{
-	width: 190px;
-	margin: 0 auto;
-	color: #FAFAFA;
-	font-size: 18px;
-	line-height: 18px;
-	text-align: left;
-}
-.consultoria h2{
-	display: inline-block;
-	text-align: center;
-	vertical-align: center;
-	color: #FFFFFF;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 30px;
-	line-height: 45px;
-	margin-bottom: 0;
-}
-.consultoria p{
-	width: 190px;
-	margin: 0 auto;
-	color: #FAFAFA;
-	font-size: 18px;
-	line-height: 18px;
-	text-align: left;
-}
-.mentorias h2{
-	display: inline-block;
-	text-align: center;
-	vertical-align: center;
-	color: #FFFFFF;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 30px;
-	line-height: 45px;
-	margin-bottom: 0;
-}
-.mentorias p{
-	width: 190px;
-	margin: 0 auto;
-	color: #FAFAFA;
-	font-size: 18px;
-	line-height: 18px;
-	text-align: left;
+.card-botao{
+	display: grid;	
+	margin-top: 30%;
+	margin-bottom: 15%;	
 }
 .botao{
 	display: block;
@@ -217,7 +180,6 @@ hr{
 	transition: 1s all;
 	cursor: pointer;
 	margin: 0 auto;
-	margin-top: 80px;
 	height: 40px;
 	box-shadow: 0px 4px 100px #000000;
 }
@@ -225,8 +187,9 @@ hr{
 .botao:hover {
 	background: #FFFFFF;	
 	color: #000000;
+	background-color: #FFFFFF;
 }
-.botao:active{
+.botao:focus{
 	background: #FFFFFF;	
 	color: #000000; 	
 }
@@ -284,6 +247,7 @@ hr{
 		width: 50%
 	}
 	.paragrafo-desktop{
+		display: grid;
 		text-align: center;
 		color: #FAFAFA;
 		font-style: normal;
@@ -293,41 +257,35 @@ hr{
 		width: 80%;
 		margin: 0 auto;
 		padding-top: 30px;
+		padding-bottom:50px;
+		font-family: 'Nunito', sans-serif;
 	}
-	.treinamentos h2{
+	.hr-soluçoes{
+		margin-bottom: 13%;
+	}
+	.soluçoes-card{
+		grid-template-columns: 1fr 1fr;
+		margin: 0 auto 40% auto;
+		grid-gap: 20%;
+	}
+	.div-card:first-child{
+		margin-top: 0;
+	}
+	.soluçoes-card h2{
 		font-size: 30px;
-		margin-bottom: 0;
 	}
-	.treinamentos p{
+	.soluçoes-card p{
 		font-size: 20px;
 	}
-	.cursos{
-		margin-bottom: 60px;
+	.card-botao{
+		margin-top: 10%;
 	}
-	.cursos h2{
-		font-size: 30px;
-		margin-bottom: 0;
+	.botao{	
 	}
-	.cursos p{
-		font-size: 20px;
-	}
-	.consultoria h2{
-		font-size: 30px;
-		margin-bottom: 0;
-	}
-	.consultoria p{
-		font-size: 20px;
-	}
-	
-	.mentorias h2{
-		font-size: 30px;
-		margin-bottom: 0;
-	}
-	.mentorias p{
-		font-size: 20px;
-	}
-	.botao{
-		margin-top: 70px;	
+}
+@media screen and (min-width: 1000px){
+	.soluçoes-card{
+		margin-bottom: 30%;
 	}
 }
 @media screen and (min-width: 1200px){
@@ -390,32 +348,19 @@ hr{
 	.titulo-soluçoes{
 		width: 600px;
 		vertical-align: center;
-		height: 60px;
+		height: 80px;
 		margin-top: 20px;
 		font-size: 72px;
-		line-height: 50px;
+		line-height: 60px;
 	}
 	.paragrafo-desktop{
 		width: 60%
-	} 
-	.treinamentos, .cursos, .consultoria, .mentorias{
-		width: 450px;
-		margin:0 auto;
-		height: 232px;
-	} 
- 	.cursos p, .consultoria p, .mentorias p{
-	width: 380px;
 	}
-	.treinamentos p{
-		width: 360px;
+	.hr-soluçoes{
+		margin-bottom: 0;
+		margin-top: 70px;
 	}
-	.cursos, .mentorias{
-		margin-left: 120px;
-	}
-	.treinamentos, .consultoria{
-		margin-right: 120px;
-	}
-	.treinamentos, .cursos{
-		margin-top: 40px;
+	.soluçoes-card{
+		margin-bottom: 20%;
 	}
 }
